@@ -1,19 +1,31 @@
 import styled from "styled-components";
 
 export const Main = styled.main`
-    padding: 0 20%;
-    background-image: url("/images/bg2.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("/images/bg6.png");
     background-repeat: no-repeat;
     background-size: cover;
-    display: grid;
-    grid-template-columns: repeat(2, 580px);
-    grid-template-rows: repeat(5, auto);
-    row-gap: 15px;
-    grid-template-areas:
-        "section section"
-        "cards cards"
+    .content {
+        padding: 15px 20%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        background: url("/images/bg7.png") top repeat-y;;
+        background-size: contain;
+    }
+    .sections {
+        display: grid;
+        grid-template-columns: repeat(2, 548px);
+        grid-template-rows: repeat(2, 280px);
+        grid-template-areas: 
         "info destaque"
         "consulta noticias";
+        gap: 10px;
+    }
     header {
         display: flex;
         align-items: center;
@@ -42,20 +54,19 @@ export const Main = styled.main`
 
 export const Section = styled.section`
     grid-area: section;
-    background: #E6E6E6;
     height: fit-content;
     display: grid;
-    grid-template-columns: 660px 340fr;
+    grid-template-columns: 660px 440px;
     grid-template-rows: 300px 60px;
     grid-template-areas:
         "slider agenda"
         "cards cards";
     gap: 5px;
-    img {
+    .slide {
         grid-area: slider;
+        width: 660px;
     }
     aside {
-        grid-area: agenda;
         background: rgba(255, 255, 255, 0.9);
         border-radius: 1px; 
         ul {
@@ -106,9 +117,10 @@ export const Section = styled.section`
         grid-area: cards;
         display: flex;
         justify-content: space-between;
+        margin-bottom: 5px;
         button {
             cursor: pointer;
-            width: 225px;
+            width: 215px;
             display: flex;
             align-items: center;
             background: rgba(255, 255, 255, 0.9);
@@ -127,16 +139,18 @@ export const Section = styled.section`
 `;
 
 export const Cards = styled.section`
-    rid-area: cards;
+    grid-area: cards;
     display: flex;
     justify-content: space-between;
-    width: 1160px;
+    width: 1105px;
+    img {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 270px;
+    }
 `;
 
 export const Info = styled.section`
     grid-area: info;
-    width: 575px;
-    height: 280px;
     background: #FFFFFF;
     border-bottom: 2px solid #9D6B53;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -145,8 +159,6 @@ export const Info = styled.section`
 
 export const Destaque = styled.section`
     grid-area: destaque;
-    width: 580px;
-    height: 280px;
     background: #FFFFFF;
     border-bottom: 2px solid #9D6B53;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -155,8 +167,6 @@ export const Destaque = styled.section`
 
 export const Consulta = styled.section`
     grid-area: consulta;
-    width: 575px;
-    height: 280px;
     background: #FFFFFF;
     border-bottom: 2px solid #9D6B53;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -165,8 +175,6 @@ export const Consulta = styled.section`
 
 export const Noticias = styled.section`
     grid-area: noticias;
-    width: 580px;
-    height: 280px;
     background: #FFFFFF;
     border-bottom: 2px solid #9D6B53;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);

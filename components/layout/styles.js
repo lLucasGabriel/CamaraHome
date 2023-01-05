@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Header = styled.header`
     section:first-child {
-        padding: 0px 20%;
+        padding: 0px 21%;
         height: 40px;
         display: flex;
         align-items: center;
@@ -19,8 +19,7 @@ export const Header = styled.header`
         }
     }
     section:last-child {
-        padding: 0px 20%;
-        justify-content: space-between;
+        justify-content: space-evenly;
         height: 130px;
         display: flex;
         align-items: center;
@@ -101,7 +100,8 @@ export const Header = styled.header`
 `;
 
 export const Navbar = styled.nav`
-    padding: 0 20%; 
+    display: flex;
+    justify-content: center;
     height: 40px;
     background: #F5F5F5;
     border-bottom: 1px solid #B9B9B9;

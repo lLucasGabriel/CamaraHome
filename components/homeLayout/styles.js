@@ -20,11 +20,17 @@ export const Main = styled.main`
     .sections {
         display: grid;
         grid-template-columns: repeat(2, 548px);
-        grid-template-rows: repeat(2, 280px);
+        grid-template-rows: repeat(2, 320px);
         grid-template-areas: 
         "info destaque"
         "consulta noticias";
         gap: 10px;
+        section {
+            background: #FFFFFF;
+            border-bottom: 2px solid #9D6B53;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 2px;
+        }
     }
     header {
         display: flex;
@@ -151,32 +157,40 @@ export const Cards = styled.section`
 
 export const Info = styled.section`
     grid-area: info;
-    background: #FFFFFF;
-    border-bottom: 2px solid #9D6B53;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 2px;
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 150px auto;
+        gap: 15px;
+        padding: 15px;
+    }
+    .box {
+        background: rgba(157, 107, 83, 0.9);
+        border-bottom: 2px solid #805845;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    h4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.21em;
+        color: #9D6B53;
+    }
 `;
 
 export const Destaque = styled.section`
     grid-area: destaque;
-    background: #FFFFFF;
-    border-bottom: 2px solid #9D6B53;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 2px;
 `;
 
 export const Consulta = styled.section`
     grid-area: consulta;
-    background: #FFFFFF;
-    border-bottom: 2px solid #9D6B53;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 2px;
 `;
 
 export const Noticias = styled.section`
     grid-area: noticias;
-    background: #FFFFFF;
-    border-bottom: 2px solid #9D6B53;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 2px;
 `;

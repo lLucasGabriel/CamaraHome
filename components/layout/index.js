@@ -98,7 +98,7 @@ export default function Layout({ children }) {
       </S.Navbar>
       {children}
       <S.Footer>
-        <p className="direitos">2022 CÂMARA DE SANTOS</p>
+        <p className="direitos">© 2022 CÂMARA DE SANTOS</p>
         <section>
             <p>ENDEREÇO: PRAÇA TENENTE MAURO BATISTA DE MIRANDA, 1 - VILA NOVA - SANTOS/SP - CEP 11013-360 - TELEFONE: 13 32114100</p>
             <a href="#">

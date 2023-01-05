@@ -115,30 +115,30 @@ export default function HomeLayout() {
                             <div className='box'>
                                 <Image
                                     src="/icons/info2.svg"
-                                    width={24}
-                                    height={24}
+                                    width={70}
+                                    height={70}
                                     alt="Informação"
                                 />
                             </div>
-                            <h4>SERVIÇO DE INFORMAÇÕES AO CIDADÃO</h4>
                             <div className='box'>
                                 <Image
-                                    src="/icons/info2.svg"
-                                    width={24}
-                                    height={24}
+                                    src="/icons/vector3.svg"
+                                    width={70}
+                                    height={70}
                                     alt="Informação"
                                 />
                             </div>
-                            <h4>SERVIÇO DE INFORMAÇÕES AO CIDADÃO</h4>
                             <div className='box'>
                                 <Image
-                                    src="/icons/info2.svg"
-                                    width={24}
-                                    height={24}
+                                    src="/icons/support.svg"
+                                    width={70}
+                                    height={70}
                                     alt="Informação"
                                 />
                             </div>
                             <h4>SERVIÇO DE INFORMAÇÕES AO CIDADÃO</h4>
+                            <h4>PORTAL DE TRANSPARÊNCIA</h4>
+                            <h4>OUVIDORIA</h4>
                         </div>
                     </S.Info>
                     <S.Destaque>
@@ -151,6 +151,12 @@ export default function HomeLayout() {
                             />
                             <h3>EM DESTAQUE</h3>
                         </header>
+                        <Image 
+                            src="/images/home/destaques.png"
+                            width={548}
+                            height={270}
+                            alt="Jovems Vereadores recebem certificação em Sessão Solene"
+                        />
                     </S.Destaque>
                     <S.Consulta>
                         <header>

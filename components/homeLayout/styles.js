@@ -14,7 +14,7 @@ export const Main = styled.main`
         flex-direction: column;
         align-items: center;
         gap: 15px;
-        background: url("/images/bg7.png") top repeat-y;;
+        background: url("/images/bg7.png") top repeat-y;
         background-size: contain;
     }
     .sections {
@@ -158,9 +158,7 @@ export const Cards = styled.section`
 export const Info = styled.section`
     grid-area: info;
     .container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 150px auto;
+        display: flex;
         gap: 15px;
         padding: 15px;
     }
@@ -169,9 +167,16 @@ export const Info = styled.section`
         border-bottom: 2px solid #805845;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 2px;
+        height: 150px;
+        width: 150px;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     h4 {
         display: flex;
@@ -180,6 +185,8 @@ export const Info = styled.section`
         text-align: center;
         letter-spacing: 0.21em;
         color: #9D6B53;
+        margin-top: 15px;
+        height: 70px;
     }
 `;
 
@@ -193,4 +200,54 @@ export const Consulta = styled.section`
 
 export const Noticias = styled.section`
     grid-area: noticias;
+    ul {
+        height: calc(320px - 100px);
+        overflow-y: scroll;
+    }
+    a {
+        display: flex;
+        border-bottom: 0.5px solid #B9B9B9;
+    }
+    a:hover {
+        background-color: #A2130B;
+        .date, .headline {
+            color: white;
+        }
+    }
+    .date {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 13px;
+        letter-spacing: 0.1em;
+        color: #9D6B53;
+        font-weight: 800;
+        padding: 5px 7px;
+        border-right: 0.5px solid #B9B9B9;
+    }
+    .headline {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        letter-spacing: 0.15em;
+        color: #333333;
+        padding: 5px;
+    }
+    footer {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        border-top: 0.5px solid #B9B9B9;
+        a {
+            background: rgba(157, 107, 83, 0.9);
+            border-bottom: 2px solid #805845;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 2px;
+            color: white;
+            text-align: center;
+            letter-spacing: 0.21em;
+            margin-left: 10px;
+            padding: 5px 20px;
+        }
+    }
 `;

@@ -22,9 +22,9 @@ export default function Layout({ children }) {
             </div>
             <div className="container">
               <div className="navigation">
-                  <a href="#">Ir para o Conteúdo[1]</a>
-                  <a href="#">Ir para o Menu Principal[2]</a>
-                  <a href="#">Ir para a busca[3]</a>
+                  <a href="#content">Ir para o Conteúdo[1]</a>
+                  <a href="#menu">Ir para o Menu Principal[2]</a>
+                  <a href="#search">Ir para a busca[3]</a>
               </div>
               <div className="buttons">
                   <button>VEREADORES</button>
@@ -45,7 +45,7 @@ export default function Layout({ children }) {
             </div>
         </section>
       </S.Header>
-      <S.Navbar>
+      <S.Navbar id="menu">
         <ul>
             <li>
                 <a href="#">

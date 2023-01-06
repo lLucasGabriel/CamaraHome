@@ -2,11 +2,12 @@ import * as S from './styles.js'
 import Image from 'next/image.js'
 import Link from 'next/link.js'
 
-import info from "../../data/info.json"
+import agenda from "../../data/agenda.json"
+import news from "../../data/news.json"
 
 export default function HomeLayout() {
     return (
-        <S.Main>
+        <S.Main id='content'>
             <S.Section>
                 <img className='slide' src="/images/home/slide1.png" alt="Audiências Públicas" />
                 <aside>
@@ -20,7 +21,7 @@ export default function HomeLayout() {
                         <h3>AGENDA DE EVENTOS</h3>
                     </header>
                     <ul>
-                        {info.map((info, index) => {
+                        {agenda.map((info, index) => {
                             return (
                                 <li>
                                     <small>{info.date}</small>
@@ -112,33 +113,39 @@ export default function HomeLayout() {
                             <h3>ACESSO À INFORMAÇÃO</h3>
                         </header>
                         <div className='container'>
-                            <div className='box'>
-                                <Image
-                                    src="/icons/info2.svg"
-                                    width={70}
-                                    height={70}
-                                    alt="Informação"
-                                />
-                            </div>
-                            <div className='box'>
-                                <Image
-                                    src="/icons/vector3.svg"
-                                    width={70}
-                                    height={70}
-                                    alt="Informação"
-                                />
-                            </div>
-                            <div className='box'>
-                                <Image
-                                    src="/icons/support.svg"
-                                    width={70}
-                                    height={70}
-                                    alt="Informação"
-                                />
-                            </div>
-                            <h4>SERVIÇO DE INFORMAÇÕES AO CIDADÃO</h4>
-                            <h4>PORTAL DE TRANSPARÊNCIA</h4>
-                            <h4>OUVIDORIA</h4>
+                            <a href="" target="_blank">
+                                <div className='box'>
+                                    <Image
+                                        src="/icons/info2.svg"
+                                        width={70}
+                                        height={70}
+                                        alt="Informação"
+                                        />
+                                </div>
+                                <h4>SERVIÇO DE INFORMAÇÕES AO CIDADÃO</h4>
+                            </a>
+                            <a href="http://s2.asp.srv.br/etransparencia.cm.santos.sp/servlet/portal" target="_blank">
+                                <div className='box'>
+                                    <Image
+                                        src="/icons/vector3.svg"
+                                        width={70}
+                                        height={70}
+                                        alt="Informação"
+                                    />
+                                </div>
+                                <h4>PORTAL DE TRANSPARÊNCIA</h4>
+                            </a>
+                            <a href="" target="_blank">
+                                <div className='box'>
+                                    <Image
+                                        src="/icons/support.svg"
+                                        width={70}
+                                        height={70}
+                                        alt="Informação"
+                                    />
+                                </div>
+                                <h4>OUVIDORIA</h4>
+                            </a>
                         </div>
                     </S.Info>
                     <S.Destaque>
@@ -179,6 +186,30 @@ export default function HomeLayout() {
                             />
                             <h3>ÚLTIMAS NOTÍCIAS</h3>
                         </header>
+                        <ul>
+                        {news.map((news, index) => {
+                            const CutHeadline = news.headline.slice(0, 48);
+                            return (
+                                <li>
+                                    <a href='#'>
+                                        <p className='date'>{news.date}</p>
+                                        <abbr title={news.headline}>
+                                            <p className='headline'>
+                                                {
+                                                    news.headline.length <= 48 ?
+                                                    CutHeadline :
+                                                    `${CutHeadline}...`
+                                                }
+                                            </p>
+                                        </abbr>
+                                    </a>
+                                </li>
+                            )
+                        })}
+                        </ul>
+                        <footer>
+                            <Link href={"#"}>TODAS AS NOTÍCIAS</Link>
+                        </footer>
                     </S.Noticias>
                 </div>
             </div>

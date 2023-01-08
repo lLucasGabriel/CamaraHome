@@ -23,7 +23,7 @@ export default function HomeLayout() {
                     <ul>
                         {agenda.map((info, index) => {
                             return (
-                                <li>
+                                <li key={index}>
                                     <small>{info.date}</small>
                                     <h4>{info.event}</h4>
                                     <Image
@@ -124,7 +124,7 @@ export default function HomeLayout() {
                                 </div>
                                 <h4>SERVIÇO DE INFORMAÇÕES AO CIDADÃO</h4>
                             </a>
-                            <a href="http://s2.asp.srv.br/etransparencia.cm.santos.sp/servlet/portal" target="_blank">
+                            <a href="http://s2.asp.srv.br/etransparencia.cm.santos.sp/servlet/portal" target="_blank" rel="noreferrer">
                                 <div className='box'>
                                     <Image
                                         src="/icons/vector3.svg"
@@ -190,7 +190,7 @@ export default function HomeLayout() {
                         {news.map((news, index) => {
                             const CutHeadline = news.headline.slice(0, 48);
                             return (
-                                <li>
+                                <li key={index}>
                                     <a href='#'>
                                         <p className='date'>{news.date}</p>
                                         <abbr title={news.headline}>

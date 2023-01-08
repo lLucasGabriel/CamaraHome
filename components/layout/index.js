@@ -72,7 +72,7 @@ export default function Layout({ children }) {
             <ul className="dropdown">
               {menu[0]["institucional"].map((item, index) => {
                 return (
-                  <li>
+                  <li key={index}>
                     <Image src="/icons/arrow3.svg" width={25} height={25} />
                     {item.toUpperCase()}
                   </li>
@@ -85,7 +85,7 @@ export default function Layout({ children }) {
             <ul className="dropdown">
               {menu[1]["vereadores"].map((item, index) => {
                 return (
-                  <li>
+                  <li key={index}>
                     <Image src="/icons/arrow3.svg" width={25} height={25} />
                     {item.toUpperCase()}
                   </li>
@@ -98,7 +98,7 @@ export default function Layout({ children }) {
             <ul className="dropdown">
               {menu[2]["atividadesLegislativas"].map((item, index) => {
                 return (
-                  <li>
+                  <li key={index}>
                     <Image src="/icons/arrow3.svg" width={25} height={25} />
                     {item.toUpperCase()}
                   </li>
@@ -107,14 +107,14 @@ export default function Layout({ children }) {
             </ul>
           </li>
           <li>
-            <a href="https://www.camarasantos.sp.gov.br/escola" target={"_blank"}>ESCOLA DO LEGISLATIVO</a>
+            <a href="https://www.camarasantos.sp.gov.br/escola" target={"_blank"} rel="noreferrer">ESCOLA DO LEGISLATIVO</a>
           </li>
           <li>
             <a href="#">COMUNICAÇÃO</a>
             <ul className="dropdown">
               {menu[3]["comunicacao"].map((item, index) => {
                 return (
-                  <li>
+                  <li key={index}>
                     <Image src="/icons/arrow3.svg" width={25} height={25} />
                     {item.toUpperCase()}
                   </li>
@@ -127,7 +127,7 @@ export default function Layout({ children }) {
             <ul className="dropdown">
               {menu[4]["concurso"].map((item, index) => {
                 return (
-                  <li>
+                  <li key={index}>
                     <Image src="/icons/arrow3.svg" width={25} height={25} />
                     {item.toUpperCase()}
                   </li>
@@ -141,7 +141,7 @@ export default function Layout({ children }) {
           <li className="icon">
             <a
               href="https://www.youtube.com/camaramunicipaldesantos"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <Image
                 src="/icons/youtube.svg"
@@ -152,7 +152,7 @@ export default function Layout({ children }) {
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/camaradesantos/" target="_blank">
+            <a href="https://www.instagram.com/camaradesantos/" target="_blank" rel="noreferrer">
               <Image
                 src="/icons/instagram.svg"
                 width={24}
@@ -164,7 +164,7 @@ export default function Layout({ children }) {
           <li>
             <a
               href="https://www.facebook.com/camaramunicipaldesantos/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <Image
                 src="/icons/facebook.svg"

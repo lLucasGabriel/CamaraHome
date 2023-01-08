@@ -111,16 +111,55 @@ export const Navbar = styled.nav`
         display: flex;
         gap: 15px;
         li {
+            position: relative;
             display: flex;
             align-items: center;
+            height: 40px;
             a {
                 font-size: 14px;
                 letter-spacing: 0.01em;
                 color: #333333;
             }
+            a:hover {
+                color: #A2130B;
+            }
+        }
+        li:hover .dropdown {
+            display: flex;
         }
         .icon {
             margin-left: 40px;
+        }
+    }
+    .dropdown:hover {
+        display: flex;
+    }
+    .dropdown {
+        position: absolute;
+        flex-direction: column;
+        overflow-y: scroll;
+        display: none;
+        top: 34px;
+        width: 250px;
+        max-height: 365px;
+        gap: 0;
+        background-color: white;
+        background: #F5F5F5;
+        border-top: 1px solid #A2130B;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        li {
+            display: flex;
+            align-items: center;
+            padding: 8px 5px;
+            height: fit-content;
+            letter-spacing: 0.1em;
+            color: #333333;
+            font-size: 13px;
+            border-bottom: 1px solid #CCCCCC;
+            cursor: pointer;
+        }
+        li:hover {
+            color: #A2130B;
         }
     }
 `;

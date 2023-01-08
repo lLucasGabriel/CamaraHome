@@ -88,7 +88,7 @@ export default function HomeLayout() {
             </S.Section>
             <div className='content'>
                 <S.Cards>
-                    <Link href={"/"}>
+                    <Link href={"https://www.camarasantos.sp.gov.br/escola"} target="_blank">
                         <img src="/images/home/card1.png" alt="Escola do Legislativo" />
                     </Link>
                     <Link href={"/procuradoria"}>

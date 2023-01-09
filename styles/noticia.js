@@ -55,6 +55,7 @@ export const Navigator = styled.div`
         letter-spacing: 0.21em;
         font-size: 11px;
         color: #FFFFFF;
+        text-transform: uppercase;
     }
     a:hover {
         color: #FCB900;

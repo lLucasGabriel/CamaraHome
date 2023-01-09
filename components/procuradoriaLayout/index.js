@@ -1,17 +1,13 @@
 import * as S from "./styles.js";
 import Link from "next/link.js";
-import Head from "next/head.js";
 
 export default function ProcuradoriaLayout() {
     return (
         <>
-			<Head>
-				<title>Câmara de Santos | Procuradoria</title>
-			</Head>
             <S.Navigator>
                 <Link href={"/"}>HOME »</Link>
                 <Link href={"/"}>INSTITUCIONAL »</Link>
-                <Link href={"/procuradoria"}>PROCURADORIA »</Link>
+                <Link href={"/procuradoria"}>PROCURADORIA</Link>
             </S.Navigator>
             <S.Main>
                 <S.Article>

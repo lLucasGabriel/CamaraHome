@@ -1,5 +1,6 @@
 import * as S from "./styles";
 import Image from "next/image";
+import Link from "next/link";
 
 import menu from "../../data/menu.json";
 
@@ -58,14 +59,14 @@ export default function Layout({ children }) {
       <S.Navbar id="menu">
         <ul>
           <li>
-            <a href="#">
+            <Link href="/">
               <Image
                 src="/icons/home.svg"
                 width={15}
                 height={15}
                 alt="Início"
               />
-            </a>
+            </Link>
           </li>
           <li>
             <a href="#">INSTITUCIONAL</a>

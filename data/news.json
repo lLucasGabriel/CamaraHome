@@ -1,58 +1,100 @@
 [
     {
-        "date": "06/12",
-        "headline": "09 E 10ª SES: USO E OCUPAÇÃO DO SOLO E LEI ORÇAMENTÁRIA"
+        "id": 1,
+        "img": "destaque1.jpg",
+        "date": "08/12/2022",
+        "headline": "Jovens Vereadores recebem certificação em Sessão Solene",
+        "content": "Os vereadores e suplentes da 6ª legislatura da Câmara Jovem receberam hoje (08) em sessão solene o certificado de participação no programa. Presidida pelo vereador Adilson Junior, a cerimônia contou com a presença dos familiares e amigos dos jovens vereadores e autoridades do município. Eles foram eleitos como vereadores e suplentes em suas unidades de ensino e tiveram um mandato de um ano. Nesse período, eles participaram de sessões no Plenário da Câmara, onde apresentaram e discutiram 19 indicações, 13 requerimentos e 11 projetos de lei. Com a ajuda dos profissionais da Câmara, eles descobriram como funciona o Legislativo, sua função e seu papel, além de entender mais das relações com o poder Executivo. A presidente da atual legislatura, Sara Almeida Barros Valente, destacou em seu discurso a importância da paz, segundo suas palavras tão esquecida e tão pouco comentada ou exaltada durante as eleições. Todos os vereadores que participaram da legislatura, tiveram a oportunidade de falar sobre a experiência vivenciada durante todo este ano no programa. A Mesa Solene foi composta por Michele Lapa Cortejano, chefe do Cartório da 118ª Zona Eleitoral, representando  Ariana Consani Brejão Degregório Gerônimo, juíza eleitoral da Comarca de Santos;  Marise Teixeira Cabral, coordenadora geral da ONG Consciência pela Cidadania; Renata Bravo, vice-prefeita de Santos; Maria Helena Marques, secretária adjunta de Educação, representado Cristina Barletta, secretária de Educação e Adilson Junior, presidente da Mesa Diretora. Presentes ainda, os vereadores Audrey Kleys, Débora Camilo e Fabrício Cardoso; além da equipe de apoio da Câmara Jovem, constituída pelos servidores do Legislativo, Lucas Carvalho, Lucas Claudiano, Patrícia Dantas e Jaqueline Nascimento."
     },
     {
-        "date": "06/12",
-        "headline": "Ato simbólico marca atuação da Câmara junto a comércio ambulante"
+        "id": 2,
+        "img": "destaque2.jpg",
+        "date": "01/12/2022",
+        "headline": "Fórum de Turismo e Eventos de Santos está no calendário oficial",
+        "content": "A 5ª edição do encontro aconteceu na terça-feira, 22/11. Com a aprovação do projeto de Lei nº 14/2022, de autoria do vereador Bruno Orlandi, o Fórum de Turismo e Eventos de Santos foi incluído no Calendário Oficial de Eventos da Cidade. A notícia foi divulgada na 5ª edição do encontro, que ocorreu no dia 22 de novembro, no Hotel  Bourbon Santos, trazendo como tema “Experiências inovadoras fortalecendo o destino e gerando negócios”. Durante a abertura, o vereador Bruno Orlandi foi homenageado por ser o propositor do projeto e por destinar recursos através de emenda parlamentar para a realização do evento. “O trabalho do turismo no município de Santos avança a passos largos. Quando falávamos há alguns anos sequer tínhamos leitos suficientes para trabalhar o turismo de negócios. Hoje nós avançamos para o 5º Fórum de Turismos e Eventos, o que faz a diferença na cidade gerando empregos, movimentando a economia e mostrando que o que Santos tem de melhor para o Brasil e para o exterior”, destacou Orlandi em seu discurso. A cerimônia também contou com a presença de Vanessa Lombardi, Presidente Santos Convention & Visitors Bureau, Inês Bellini, Vice-presidente Santos Convention & Visitors Bureau e Selley Storino, Secretária Municipal de Empreendedorismo, Economia Criativa e Turismo de Santos."
     },
     {
+        "id": 3,
+        "img": "destaque",
         "date": "06/12",
-        "headline": "Câmara transfere recursos ao Executivo"
+        "headline": "Câmara transfere recursos ao Executivo",
+        "content": "content"
     },
     {
+        "id": 4,
+        "img": "destaque",
         "date": "06/12",
-        "headline": "Câmara transfere 5 milhões à Prefeitura durante prestação de contas"
+        "headline": "Câmara transfere 5 milhões à Prefeitura durante prestação de contas",
+        "content": "content"
     },
     {
+        "id": 5,
+        "img": "destaque",
         "date": "06/12",
-        "headline": "CASAMENTO COMUNITÁRIO É REALIZADO EM CLIMA DE MUITA EMOÇÃO"
+        "headline": "CASAMENTO COMUNITÁRIO É REALIZADO EM CLIMA DE MUITA EMOÇÃO",
+        "content": "content"
     },
     {
+        "id": 6,
+        "img": "destaque",
         "date": "06/12",
-        "headline": "Quilombos são reconhecidos como patrimônios históricos e culturais"
+        "headline": "Quilombos são reconhecidos como patrimônios históricos e culturais",
+        "content": "content"
     },
     {
+        "id": 7,
+        "img": "destaque",
         "date": "06/12",
-        "headline": "06ª S.E.: CALENDÁRIO OFICIAL DO MUNICÍPIO E TERMO DE FOMENTO"
+        "headline": "06ª S.E.: CALENDÁRIO OFICIAL DO MUNICÍPIO E TERMO DE FOMENTO",
+        "content": "content"
     },
     {
+        "id": 8,
+        "img": "destaque",
         "date": "06/12",
-        "headline": "DOUTOR ORLANDO DE CASTRO RECEBE MEDALHA BRAZ CUBAS"
+        "headline": "DOUTOR ORLANDO DE CASTRO RECEBE MEDALHA BRAZ CUBAS",
+        "content": "content"
     },
     {
+        "id": 9,
+        "img": "destaque",
         "date": "06/12",
-        "headline": "Câmara recebeu última sessão da 6ª legislatura da Câmara Jovem"
+        "headline": "Câmara recebeu última sessão da 6ª legislatura da Câmara Jovem",
+        "content": "content"
     },
     {
+        "id": 10,
+        "img": "destaque",
         "date": "06/12",
-        "headline": "Eleita Mesa Diretora para o biênio 2023/2024"
+        "headline": "Eleita Mesa Diretora para o biênio 2023/2024",
+        "content": "content"
     },
     {
+        "id": 11,
+        "img": "destaque",
         "date": "06/12",
-        "headline": "Câmara transfere recursos ao Executivo"
+        "headline": "Câmara transfere recursos ao Executivo",
+        "content": "content"
     },
     {
+        "id": 12,
+        "img": "destaque",
         "date": "06/12",
-        "headline": "Câmara firma Termo de Cooperação com Tribunal de Contas do Estado (TCE)"
+        "headline": "Câmara firma Termo de Cooperação com Tribunal de Contas do Estado (TCE)",
+        "content": "content"
     },
     {
+        "id": 13,
+        "img": "destaque",
         "date": "06/12",
-        "headline": "LUOS em discussão na Câmara de Santos"
+        "headline": "LUOS em discussão na Câmara de Santos",
+        "content": "content"
     },
     {
+        "id": 14,
+        "img": "destaque",
         "date": "06/12",
-        "headline": "09 E 10ª SES: USO E OCUPAÇÃO DO SOLO E LEI ORÇAMENTÁRIA"
+        "headline": "09 E 10ª SES: USO E OCUPAÇÃO DO SOLO E LEI ORÇAMENTÁRIA",
+        "content": "content"
     }
 ]

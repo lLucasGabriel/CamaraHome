@@ -190,9 +190,9 @@ export default function HomeLayout() {
                         {news.map((news, index) => {
                             const CutHeadline = news.headline.slice(0, 48);
                             return (
-                                <li key={index}>
-                                    <a href='#'>
-                                        <p className='date'>{news.date}</p>
+                                <li key={news.id}>
+                                    <Link href={`/noticia/${news.id}`}>
+                                        <p className='date'>{news.date.slice(0, 5)}</p>
                                         <abbr title={news.headline}>
                                             <p className='headline'>
                                                 {
@@ -202,7 +202,7 @@ export default function HomeLayout() {
                                                 }
                                             </p>
                                         </abbr>
-                                    </a>
+                                    </Link>
                                 </li>
                             )
                         })}

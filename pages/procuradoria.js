@@ -5,7 +5,7 @@ export default function Procuradoria() {
     return (
         <>
             <Head>
-                <title>Câmara de Santos</title>
+                <title>Câmara de Santos | Procuradoria</title>
             </Head>
             <ProcuradoriaLayout/>
         </>

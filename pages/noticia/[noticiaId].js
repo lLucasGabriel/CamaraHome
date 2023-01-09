@@ -1,4 +1,4 @@
-import NoticiaLayout from "../../components/NoticiaLayout";
+import NoticiaLayout from "../../components/noticiaLayout";
 
 export default function Noticia() {
     return (

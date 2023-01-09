@@ -1,100 +1,72 @@
 [
     {
-        "id": 1,
+        "id": 0,
         "img": "destaque1.jpg",
         "date": "08/12/2022",
         "headline": "Jovens Vereadores recebem certificação em Sessão Solene",
         "content": "Os vereadores e suplentes da 6ª legislatura da Câmara Jovem receberam hoje (08) em sessão solene o certificado de participação no programa. Presidida pelo vereador Adilson Junior, a cerimônia contou com a presença dos familiares e amigos dos jovens vereadores e autoridades do município. Eles foram eleitos como vereadores e suplentes em suas unidades de ensino e tiveram um mandato de um ano. Nesse período, eles participaram de sessões no Plenário da Câmara, onde apresentaram e discutiram 19 indicações, 13 requerimentos e 11 projetos de lei. Com a ajuda dos profissionais da Câmara, eles descobriram como funciona o Legislativo, sua função e seu papel, além de entender mais das relações com o poder Executivo. A presidente da atual legislatura, Sara Almeida Barros Valente, destacou em seu discurso a importância da paz, segundo suas palavras tão esquecida e tão pouco comentada ou exaltada durante as eleições. Todos os vereadores que participaram da legislatura, tiveram a oportunidade de falar sobre a experiência vivenciada durante todo este ano no programa. A Mesa Solene foi composta por Michele Lapa Cortejano, chefe do Cartório da 118ª Zona Eleitoral, representando  Ariana Consani Brejão Degregório Gerônimo, juíza eleitoral da Comarca de Santos;  Marise Teixeira Cabral, coordenadora geral da ONG Consciência pela Cidadania; Renata Bravo, vice-prefeita de Santos; Maria Helena Marques, secretária adjunta de Educação, representado Cristina Barletta, secretária de Educação e Adilson Junior, presidente da Mesa Diretora. Presentes ainda, os vereadores Audrey Kleys, Débora Camilo e Fabrício Cardoso; além da equipe de apoio da Câmara Jovem, constituída pelos servidores do Legislativo, Lucas Carvalho, Lucas Claudiano, Patrícia Dantas e Jaqueline Nascimento."
     },
     {
-        "id": 2,
+        "id": 1,
         "img": "destaque2.jpg",
         "date": "01/12/2022",
         "headline": "Fórum de Turismo e Eventos de Santos está no calendário oficial",
         "content": "A 5ª edição do encontro aconteceu na terça-feira, 22/11. Com a aprovação do projeto de Lei nº 14/2022, de autoria do vereador Bruno Orlandi, o Fórum de Turismo e Eventos de Santos foi incluído no Calendário Oficial de Eventos da Cidade. A notícia foi divulgada na 5ª edição do encontro, que ocorreu no dia 22 de novembro, no Hotel  Bourbon Santos, trazendo como tema “Experiências inovadoras fortalecendo o destino e gerando negócios”. Durante a abertura, o vereador Bruno Orlandi foi homenageado por ser o propositor do projeto e por destinar recursos através de emenda parlamentar para a realização do evento. “O trabalho do turismo no município de Santos avança a passos largos. Quando falávamos há alguns anos sequer tínhamos leitos suficientes para trabalhar o turismo de negócios. Hoje nós avançamos para o 5º Fórum de Turismos e Eventos, o que faz a diferença na cidade gerando empregos, movimentando a economia e mostrando que o que Santos tem de melhor para o Brasil e para o exterior”, destacou Orlandi em seu discurso. A cerimônia também contou com a presença de Vanessa Lombardi, Presidente Santos Convention & Visitors Bureau, Inês Bellini, Vice-presidente Santos Convention & Visitors Bureau e Selley Storino, Secretária Municipal de Empreendedorismo, Economia Criativa e Turismo de Santos."
     },
     {
+        "id": 2,
+        "img": "destaque3.jpeg",
+        "date": "05/01/2023",
+        "headline": "Ato simbólico marca atuação da Câmara junto a comércio ambulante",
+        "content": "O presidente da Câmara, vereador Cacá Teixeira  e os vereadores Adilson Junior e Sérgio Santana participaram nesta tarde (05/01) do ato simbólico de sanção pelo prefeito Rogério Santos, da Lei Complementar 1189 de 02 de janeiro de 2023, que regulamenta a atividade do comércio ambulante de acordo com a realidade atual. O evento foi realizado na Sala Princesa Isabel e foi acompanhado por diversos comerciantes que atuam na cidade e pela Sra. Neli Ferreira Gonçalves, representante sindical da categoria. Presentes ainda, o secretário municipal de Finanças, Adriano Leocadio, o secretário-chefe do Gabinete do Prefeito, Sylvio Alarcon e a chefe do Departamento de Fiscalização Empresarial e Atividades Viárias (Defemp), Mabel Cardama. A lei complementar, além de trazer nova regulamentação, amenizando conflitos urbanos, flexibiliza a atuação dos permissionários, permitindo por exemplo, a veiculação de publicidade nos carrinhos e a transferência da licença para terceiro. Outro fator importante de legislação é a segurança jurídica à atividade. O presidente Cacá Teixeira salientou que a Câmara Municipal de Santos tem a sensibilidade de promover inovações, mas também alterar para adaptar as leis de acordo com as condições exigidas pelo momento, como no caso da lei complementar sancionada em benefício da cidade e do comércio ambulante. O vereador Adilson Junior, autor do projeto, destacou a importância do comércio ambulante para a geração de renda, especialmente na região da Orla e o quanto será positivo nesse sentido, a exploração dos anúncios pelos comerciantes. “Os ambulantes são os maiores formadores de opinião junto aos nossos turistas”, declarou o vereador Sérgio Santana, enaltecendo a categoria. A Câmara Municipal de Santos cumpre com a sanção desta lei, mais um compromisso assumido com a sua população, desta vez representada pelos trabalhadores que movimentam o comércio ambulante."
+    },
+    {
         "id": 3,
-        "img": "destaque",
-        "date": "06/12",
-        "headline": "Câmara transfere recursos ao Executivo",
-        "content": "content"
+        "img": "destaque4.jpg",
+        "date": "05/10/2022",
+        "headline": "Câmara firma Termo de Cooperação com Tribunal de Contas do Estado (TCE)",
+        "content": "A Câmara Municipal de Santos, representada pelo presidente da Mesa Diretora, vereador Adilson Junior (PP) participou da cerimônia realizada nesta tarde (5/10), no Auditório Nobre ‘Professor José Luiz de Anhaia Mello’, na Capital, ocasião em que o Tribunal de Contas do Estado de São Paulo (TCESP) lançou a Rede TCESP, celebrando a parceria firmada por meio de Termo de Cooperação com TVs Câmaras de 108 municípios paulistas, que teve adesão do legislativo santista. O Termo visa difundir conteúdo audiovisual de caráter educativo, institucional, jornalístico, informativo para a sociedade, proporcionando mais transparência e publicidade aos assuntos relacionados às atividades de controle externo e à fiscalização dos gastos do poder público do Estado e dos municípios paulistas. Entre os conteúdos compartilhados com as TVs Legislativas estão programas produzidos em parceria com a TV Cultura e a Rede Alesp, além de reportagens, entrevistas, boletins e documentários especiais feitos pela equipe de Comunicação Social do Tribunal de Contas. O presidente Adilson Junior, que recebeu durante o evento, certificado pela parceria firmada entre a Câmara e o TCE, destacou que “o legislativo santista tem procurado dar máxima transparência de seus atos, renovando e ampliando a forma de se comunicar e aproximar o cidadão da Câmara e a divulgação da programação do TCE, que é um órgão fiscalizador da aplicação dos recursos públicos, enriquecerá o conteúdo transmitido”. A mesa solene do evento foi composta pelo Presidente do TCE, Conselheiro Dimas Ramalho; pelo Vice-Presidente, Conselheiro Sidney Beraldo; pelo Corregedor, Conselheiro Renato Martins Costa; pelo Conselheiro Edgard Camargo Rodrigues; pela Conselheira Cristiana de Castro Moraes; pelo Procurador Geral do Ministério Público de Contas (MPC) junto ao TCESP, Thiago Pinheiro Lima; pelo Procurador-Chefe da Procuradoria da Fazendo do Estado (PFE) junto ao TCE, Luiz Menezes Neto; pelo Coordenador do Corpo de Auditores, Samy Wurman; pelo Presidente da União dos Vereadores do Estado de SP (UVESP), Sebastião Misiara; pela Presidente da Associação Astral e representante da Rede Legislativa, Luciana Rivelli Amélio; e a Presidente da Câmara Municipal de Rancharia, Márcia Enz."
     },
     {
         "id": 4,
-        "img": "destaque",
-        "date": "06/12",
-        "headline": "Câmara transfere 5 milhões à Prefeitura durante prestação de contas",
-        "content": "content"
+        "img": "destaque5.jpg",
+        "date": "29/09/2022",
+        "headline": "Câmara transfere 15 milhões à Prefeitura",
+        "content": "O presidente da Mesa Diretora, vereador Adilson Junior, na presença de vereadores e secretários municipais, antecipou nesta tarde (29) à Prefeitura, recursos da ordem de R$ 15 milhões. O cheque, entregue em mãos ao prefeito Rogério Santos é o primeiro repasse deste ano e permitirá ao Executivo manter o equilíbrio de contas e o bom andamento dos serviços públicos. O chefe do Executivo esteve no Plenário para a entrega do Projeto de Lei Orçamentária Anual (PLOA) de 2023, peça orçamentária que norteará a aplicação dos recursos públicos durante o próximo ano, além de alterações na Lei de Diretrizes Orçamentárias e Projeto Plurianual. O ato aconteceu no Plenário Dr. Oswaldo de Rosis, antes do início da 57ª Sessão Ordinária. Compromisso - 'Os vereadores e vereadoras permanecem firmes no compromisso assumido com a nossa cidade e dentro da política de eficiência e economicidade na gestão da Mesa Diretora. Mais uma vez a Câmara de Santos cumpre seu papel, auxiliando o Poder Executivo na continuidade e aprimoramento de projetos e serviços. Embora já tenhamos atravessado os difíceis momentos de pandemia, mantivemos a austeridade administrativa que culminou, já em setembro, na transferência destes recursos', declarou Adilson Junior, presidente do Legislativo."
     },
     {
         "id": 5,
-        "img": "destaque",
+        "img": "destaque6.jpg",
         "date": "06/12",
-        "headline": "CASAMENTO COMUNITÁRIO É REALIZADO EM CLIMA DE MUITA EMOÇÃO",
-        "content": "content"
+        "headline": "Feliz Ano Novo | Desejamos um feliz e próspero 2023",
+        "content": "A casa do povo Santista deseja a todos um ótimo 2023. Que seja um ano recheado de amor, paz, saúde, prosperidade e sucesso! Agradecemos a colaboração e participação de todos no ano de 2022. Continuaremos juntos e trabalhando com responsabilidade neste novo ciclo que está por vir, em 2023. #CâmaraSantos #SantosCidade #Santos #Legislativo #AnoNovo #2023"
     },
     {
         "id": 6,
-        "img": "destaque",
-        "date": "06/12",
-        "headline": "Quilombos são reconhecidos como patrimônios históricos e culturais",
-        "content": "content"
+        "img": "destaque7.jpg",
+        "date": "24/11/2022",
+        "headline": "DOUTOR ORLANDO DE CASTRO RECEBE MEDALHA BRAZ CUBAS",
+        "content": "A Câmara concedeu a Medalha de Honra ao Mérito Braz Cubas ao médico especialista em ginecologia e obstetrícia Dr. Orlando de Castro Neto. O médico santista, foi precursor na realização do parto de Gemelares em paciente de 61 anos de idade na cidade. O fato evidenciou o Município nacional e internacionalmente. A homenagem ocorreu no dia 18/11, no Plenário Oswaldo De Rosis. Formado na 7º turma do curso de Medicina do Centro Universitário Lusíada (UNILUS) de Santos em 1979, o médico fez sua residência médica na Casa de Saúde, aqui na cidade, nos anos 80, tornando-se depois representante dos residentes.O autor da homenagem por meio de Projeto de Decreto Legislativo nº 19/2019, foi o vereador Ademir Pestana (PSDB). Ele justificou a homenagem ao médico pelo elevado gabarito profissional e domínio de técnicas inovadoras por meio da inseminação artificial com embriões congelados, além de suas ações de benemerência na cidade. A sessão solene foi presidida pelo vereador Roberto Oliveira Teixeira. O prefeito Rogério Santos foi representado pelo Secretário Municipal de Saúde em exercício, Denis Vallejo. No discurso de saudação, o vereador Ademir Pestana citou o médico e poeta santista Martins Fontes: “Como é bom ser bom”. “A medicina é um curso destinado para quem gosta de pessoas. E o Dr. Castro é um ser humano que gosta de gente”, concluiu o vereador."
     },
     {
         "id": 7,
-        "img": "destaque",
-        "date": "06/12",
-        "headline": "06ª S.E.: CALENDÁRIO OFICIAL DO MUNICÍPIO E TERMO DE FOMENTO",
-        "content": "content"
+        "img": "destaque8.jpeg",
+        "date": "18/11/2022",
+        "headline": "Câmara cede espaço para exposição",
+        "content": "A Câmara Municipal de Santos cede suas dependências para a exposição artística com quadros, pinturas, cartoons e gibis de artistas santistas. As obras são de Santana, Paula Blanco, Yan Troisi Savoia, Swell Troisi Savoia e Victor Gabriel. A cessão de espaço foi motivada pelo requerimento 1034/2022, apresentado pelo vereador Adriano Piemonte,  A exposição acontece entre os dias 21 a 25 de novembro, na Câmara de Santos, na Praça Tenente Mauro Batista, no 01 – Vila Nova."
     },
     {
         "id": 8,
-        "img": "destaque",
+        "img": "destaque9.jpg",
         "date": "06/12",
-        "headline": "DOUTOR ORLANDO DE CASTRO RECEBE MEDALHA BRAZ CUBAS",
-        "content": "content"
+        "headline": "Mais educadores receberão auxílio para computadores",
+        "content": "O Programa Conecta Educador, da Prefeitura de Santos, existe desde 2021. Consiste em um aporte financeiro aos profissionais da educação na aquisição de computadores ou tabletes para utilização das atividades em sala de aula. Em requerimento aprovado na Câmara ano passado, pedia-se a inclusão de mais profissionais da educação. O programa, que atendia apenas alguns, agora passa a atender também os especialistas de educação I, II e III, professores de Educação Básica e Educadores de Desenvolvimento Infantil. A inclusão dos demais profissionais começou este ano, conforme publicado no Diário Oficial de 18 de abril de 2022. Autor do requerimento nº 955/2021, o vereador Ademir Pestana (PSDB), comemorou a concessão do programa Conecta Educador a novos educadores. Segundo ele, não era justo que os demais especialistas e professores ficassem de fora, tendo em vista que todos necessitam de recursos para dar o melhor de si em sala de aula. A Lei Municipal nº 4.010 de 13 de abril de 2022 passou a regulamentar o Programa Conecta Educador. O programa já era contemplado pela Lei Federal nº 14.040/2020,  que obriga os sistemas de ensino que optaram por adotar atividades à distância, durante a pandemia, a assegurar os meios necessários para a realização das atividades aos alunos e professores. O benefício não será considerado remuneração e não será incorporado aos vencimentos dos servidores."
     },
     {
         "id": 9,
-        "img": "destaque",
-        "date": "06/12",
-        "headline": "Câmara recebeu última sessão da 6ª legislatura da Câmara Jovem",
-        "content": "content"
-    },
-    {
-        "id": 10,
-        "img": "destaque",
-        "date": "06/12",
+        "img": "destaque10.jpg",
+        "date": "01/11/2022",
         "headline": "Eleita Mesa Diretora para o biênio 2023/2024",
-        "content": "content"
-    },
-    {
-        "id": 11,
-        "img": "destaque",
-        "date": "06/12",
-        "headline": "Câmara transfere recursos ao Executivo",
-        "content": "content"
-    },
-    {
-        "id": 12,
-        "img": "destaque",
-        "date": "06/12",
-        "headline": "Câmara firma Termo de Cooperação com Tribunal de Contas do Estado (TCE)",
-        "content": "content"
-    },
-    {
-        "id": 13,
-        "img": "destaque",
-        "date": "06/12",
-        "headline": "LUOS em discussão na Câmara de Santos",
-        "content": "content"
-    },
-    {
-        "id": 14,
-        "img": "destaque",
-        "date": "06/12",
-        "headline": "09 E 10ª SES: USO E OCUPAÇÃO DO SOLO E LEI ORÇAMENTÁRIA",
-        "content": "content"
+        "content": "Os vereadores referendaram hoje (1º) a chapa única inscrita para o comando da Mesa Diretora. A eleição ocorreu antes da sessão ordinária, no Plenário Dr. Oswaldo de Rosis. A inscrição entregue ao presidente Adilson Junior (PP), trouxe Carlos Teixeira Filho, o Cacá Teixeira (PSDB) como presidente da Mesa Diretora; Roberto Oliveira Teixeira, o Pastor Roberto (Republicanos), como 1º vice-presidente;  o vereador Francisco Nogueira, o Chico da Settaport (PT), como 2º vice-presidente; Lincoln Reis (PL) no cargo de  1º secretário; e João Neri (PSD) como 2º secretário. Os eleitos para compor a Mesa Diretora do biênio 2023/2024 tomarão posse a partir do dia 1º de janeiro de 2023. Entretanto, a eleição para a segunda Mesa da legislatura ocorre sempre na primeira sessão do mês do novembro. “Acredito que a experiência no Executivo como vice-prefeito e como secretário, e no Legislativo me credenciaram para representar a Câmara neste momento. E eu agradeço pela confiança dos pares para exercer esse papel. Nossa ideia é dar continuidade a processos que já foram iniciados, como por exemplo, o concurso público da Câmara que já foi realizado, e o espaço físico para a Escola do Legislativo.  Também ampliar a participação popular nas discussões que são conduzidas pelas comissões, e aproximar a sociedade do Legislativo”, declarou Cacá Teixeira, após ser eleito como presidente."
     }
 ]

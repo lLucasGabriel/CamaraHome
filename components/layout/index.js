@@ -2,7 +2,7 @@ import * as S from "./styles";
 import Image from "next/image";
 import Link from "next/link";
 
-import menu from "../../data/menu.json";
+import menu from "../../public/data/menu.json";
 
 export default function Layout({ children }) {
   return (

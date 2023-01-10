@@ -2,8 +2,8 @@ import * as S from './styles.js'
 import Image from 'next/image.js'
 import Link from 'next/link.js'
 
-import agenda from "../../data/agenda.json"
-import news from "../../data/news.json"
+import agenda from "../../public/data/agenda.json"
+import news from "../../public/data/news.json"
 
 export default function HomeLayout() {
     return (

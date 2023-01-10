@@ -65,6 +65,9 @@ export const Navigator = styled.div`
 export const Content = styled.section`
     grid-area: content;
     width: 548px;
+    img {
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
     small {
         letter-spacing: 0.21em;
         color: #333333;

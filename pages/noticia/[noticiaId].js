@@ -4,7 +4,7 @@ import Link from "next/link.js";
 import Image from "next/image.js";
 import { useRouter } from "next/router";
 
-import newsApi from "../../data/news.json"
+import newsApi from '../../public/data/news.json';
 
 export default function Noticia() {
     const router = useRouter();
